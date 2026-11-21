@@ -133,7 +133,7 @@
             panel2.Controls.Add(btNuevaVenta);
             panel2.Dock = DockStyle.Right;
             panel2.ForeColor = SystemColors.ButtonHighlight;
-            panel2.Location = new Point(857, 0);
+            panel2.Location = new Point(887, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(200, 452);
             panel2.TabIndex = 3;
@@ -205,7 +205,7 @@
             btCobrar.Name = "btCobrar";
             btCobrar.Size = new Size(185, 59);
             btCobrar.TabIndex = 3;
-            btCobrar.Text = "F2 - Cobrar";
+            btCobrar.Text = "Cobrar";
             btCobrar.UseVisualStyleBackColor = false;
             btCobrar.Click += button5_Click;
             // 
@@ -218,7 +218,7 @@
             btNuevaVenta.Name = "btNuevaVenta";
             btNuevaVenta.Size = new Size(185, 35);
             btNuevaVenta.TabIndex = 4;
-            btNuevaVenta.Text = "F4 - Nueva venta";
+            btNuevaVenta.Text = "Nueva venta";
             btNuevaVenta.UseVisualStyleBackColor = false;
             btNuevaVenta.Click += btNuevaVenta_Click;
             // 
@@ -227,7 +227,7 @@
             btAgregar.BackColor = SystemColors.GradientActiveCaption;
             btAgregar.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btAgregar.ForeColor = SystemColors.ActiveCaptionText;
-            btAgregar.Location = new Point(520, 41);
+            btAgregar.Location = new Point(568, 41);
             btAgregar.Name = "btAgregar";
             btAgregar.Size = new Size(101, 27);
             btAgregar.TabIndex = 2;
@@ -244,7 +244,7 @@
             dataGridView1.GridColor = SystemColors.Window;
             dataGridView1.Location = new Point(199, 73);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(658, 379);
+            dataGridView1.Size = new Size(688, 379);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
             // 
@@ -299,7 +299,7 @@
             groupBox1.Controls.Add(lbCodBarras);
             groupBox1.Location = new Point(199, 352);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(658, 100);
+            groupBox1.Size = new Size(688, 100);
             groupBox1.TabIndex = 8;
             groupBox1.TabStop = false;
             // 
@@ -325,7 +325,7 @@
             button1.BackColor = SystemColors.GradientActiveCaption;
             button1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(750, 100);
+            button1.Location = new Point(767, 100);
             button1.Name = "button1";
             button1.Size = new Size(101, 27);
             button1.TabIndex = 9;
@@ -337,7 +337,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1057, 452);
+            ClientSize = new Size(1087, 452);
             Controls.Add(button1);
             Controls.Add(groupBox1);
             Controls.Add(dataGridView1);
