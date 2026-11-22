@@ -254,6 +254,7 @@
             dataGridView1.GridColor = SystemColors.Window;
             dataGridView1.Location = new Point(199, 73);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
             dataGridView1.Size = new Size(816, 378);
             dataGridView1.TabIndex = 11;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
@@ -262,26 +263,31 @@
             // 
             coCodigo.HeaderText = "Codigo";
             coCodigo.Name = "coCodigo";
+            coCodigo.ReadOnly = true;
             // 
             // CoDesc
             // 
             CoDesc.HeaderText = "Descripcion";
             CoDesc.Name = "CoDesc";
+            CoDesc.ReadOnly = true;
             // 
             // CoPrecio
             // 
             CoPrecio.HeaderText = "Precio Unit.";
             CoPrecio.Name = "CoPrecio";
+            CoPrecio.ReadOnly = true;
             // 
             // CoStock
             // 
             CoStock.HeaderText = "Stock";
             CoStock.Name = "CoStock";
+            CoStock.ReadOnly = true;
             // 
             // CoCategoria
             // 
             CoCategoria.HeaderText = "Categoria";
             CoCategoria.Name = "CoCategoria";
+            CoCategoria.ReadOnly = true;
             // 
             // lbfProductos
             // 
