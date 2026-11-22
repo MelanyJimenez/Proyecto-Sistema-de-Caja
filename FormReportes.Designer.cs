@@ -116,6 +116,7 @@
             dataGridView1.GridColor = SystemColors.Window;
             dataGridView1.Location = new Point(199, 130);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
             dataGridView1.Size = new Size(549, 320);
             dataGridView1.TabIndex = 11;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
@@ -124,16 +125,19 @@
             // 
             ColNventas.HeaderText = "N° Venta";
             ColNventas.Name = "ColNventas";
+            ColNventas.ReadOnly = true;
             // 
             // ColFecha
             // 
             ColFecha.HeaderText = "Fecha";
             ColFecha.Name = "ColFecha";
+            ColFecha.ReadOnly = true;
             // 
             // ColTotal
             // 
             ColTotal.HeaderText = "Total";
             ColTotal.Name = "ColTotal";
+            ColTotal.ReadOnly = true;
             // 
             // lbTotalRecaud
             // 

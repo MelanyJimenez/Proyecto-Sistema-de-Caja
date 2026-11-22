@@ -244,6 +244,7 @@
             dataGridView1.GridColor = SystemColors.Window;
             dataGridView1.Location = new Point(199, 73);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
             dataGridView1.Size = new Size(688, 379);
             dataGridView1.TabIndex = 4;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick_1;
@@ -252,26 +253,31 @@
             // 
             coCodigo.HeaderText = "Codigo";
             coCodigo.Name = "coCodigo";
+            coCodigo.ReadOnly = true;
             // 
             // CoDesc
             // 
             CoDesc.HeaderText = "Descripcion";
             CoDesc.Name = "CoDesc";
+            CoDesc.ReadOnly = true;
             // 
             // CoCant
             // 
             CoCant.HeaderText = "Cantidad";
             CoCant.Name = "CoCant";
+            CoCant.ReadOnly = true;
             // 
             // CoPrecio
             // 
             CoPrecio.HeaderText = "Precio";
             CoPrecio.Name = "CoPrecio";
+            CoPrecio.ReadOnly = true;
             // 
             // CoImporte
             // 
             CoImporte.HeaderText = "Importe";
             CoImporte.Name = "CoImporte";
+            CoImporte.ReadOnly = true;
             // 
             // textCodBarras
             // 
